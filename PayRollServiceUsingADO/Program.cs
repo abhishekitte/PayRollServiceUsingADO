@@ -11,9 +11,18 @@ namespace PayrollServicesUsingADO
         static void Main(string[] args)
         {
             EmployeeRepositoryUsingER repository = new EmployeeRepositoryUsingER();
-            repository.RetrieveAllEmployeeDetails();
+            //UC2
+            //repository.RetrieveAllEmployeeDetails();
+            ////UC3
+            //repository.UpdateSalaryofParticular();
+            //UC4
+            //ERModel model = new ERModel();
+            //model.Basic_Pay = 8000000;
+            //model.Name = "Abhisek";
+            //repository.UpdateSalarybySP(model);
+            //U5
+            repository.RetrieveDataBasedOnDateRange();
             Console.ReadLine();
         }
     }
 }
-© 2021 GitHub, Inc.
