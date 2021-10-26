@@ -16,4 +16,3 @@ namespace PayrollServicesUsingADO
         }
     }
 }
-© 2021 GitHub, Inc.
